@@ -91,5 +91,5 @@ void loop() {
   Serial.println(liftPos == 1 ? "DOWN" : liftPos == 2 ? "UP" : "---");
   Serial.print("LIFT : ");
   Serial.println(liftGo == 1 ? "DOWN" : liftGo == 2 ? "UP" : "---");
-  delay(500);
+//   delay(500);
 }
